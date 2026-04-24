@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://cumanr6et84c5"]
+
+[ext_resource type="Script" uid="uid://ceiuvjnhw2fdm" path="res://assets/scripts/controller_test.gd" id="1_pbnap"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+script = ExtResource("1_pbnap")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer"]
+offset_right = 1172.0
+offset_bottom = 562.0
